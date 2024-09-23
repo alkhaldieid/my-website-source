@@ -44,6 +44,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     url = "/"
     weight = 1  # Controls the order of the menu items
   [[menu.main]]
+    weight = 2
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About Me"
+    url = "/about/"
+    title = ""
+  [[menu.main]]
     weight = 1
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
